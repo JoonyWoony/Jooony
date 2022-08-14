@@ -51,6 +51,14 @@ btns:Button(
         DiscordLib:Notification("Notification", "Turned off! Make sure to enable it by clicking the button above again", "Okay idiot!")
         getgenv().Slapon6 = false
     end
+    
+)
+btns:Button(
+    "Daniel my bb",
+    function()
+        DiscordLib:Notification("Notification", "Jadrien is so hot bro no kizzy", "Okay idiot!")
+        getgenv().Slapon6 = false
+    end
 )
 
 
