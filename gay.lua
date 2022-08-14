@@ -5,7 +5,7 @@ local win = DiscordLib:Window("Unofficial GUI")
 
 local serv = win:Server("Joony's UnOfficial GUI", "")
 
-local btns = serv:Channel("Buttons")
+local btns = serv:Channel("Main")
 
 btns:Button(
     "Auto Official",
@@ -54,6 +54,6 @@ btns:Button(
 )
 
 
-serv:Channel("By JoonyWoony")
+serv:Channel("Made By JoonyWoony")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
